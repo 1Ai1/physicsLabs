@@ -1,0 +1,11 @@
+.labs{
+    list-style: none;
+}
+.labBlock{
+    width: 10vw;
+    height: 5vh;
+    background-color: aqua;
+}
+.labBlock:hover{
+    opacity: 0.6;
+}
