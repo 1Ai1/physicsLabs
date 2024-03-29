@@ -1,0 +1,18 @@
+
+html, body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ruler{
+  position: absolute;
+  left: 2.2%; 
+  bottom: 2.8%;
+  width: 60vw;
+  height: 10vh;
+  background: url(../assets/ruler.jpg) no-repeat;
+  background-size: contain;
+}

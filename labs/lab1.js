@@ -18,6 +18,8 @@ var render = Render.create({
   options: {
     width: 800,
     height: 600,
+    background: "#ffffff",
+    wireframes: false,
   },
 });
 
@@ -29,31 +31,29 @@ Runner.run(runner, engine);
 
 // add bodies
 var stack = Composites.stack(
-  100,
-  600 - 21 - 20 * 20,
+  0,
+  500 - 21 - 20 * 20,
   5,
-  1,
+  3,
   20,
   0,
   function (x, y) {
     return Bodies.circle(x, y, 20);
   }
 );
-const box = {
-  w: 140,
-  h: 80,
-  body: Matter.Bodies.rectangle(150, 0, 140, 80),
-  elem: document.querySelector("#box"),
-};
+
+var door = Bodies.rectangle(700, 20, 100, 100);
 
 Composite.add(world, [
   // walls
-  box.body,
+  Bodies.rectangle(150, 220, 300, 30, { isStatic: true }),
+  Bodies.rectangle(300, 185, 30, 100, { isStatic: true }),
   Bodies.rectangle(400, 0, 800, 50, { isStatic: true }),
   Bodies.rectangle(400, 600, 800, 50, { isStatic: true }),
   Bodies.rectangle(800, 300, 50, 600, { isStatic: true }),
   Bodies.rectangle(0, 300, 50, 600, { isStatic: true }),
   stack,
+  door,
 ]);
 // add mouse control
 var mouse = Mouse.create(render.canvas),
