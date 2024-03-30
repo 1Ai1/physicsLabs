@@ -26,8 +26,8 @@
     height: 80%;
 }
 .labImg:nth-child(1){
-    background: url(assets/256893352_4649246145136227_8756954835593250977_n.png) no-repeat;
-    background-size: cover;
+    background: url(assets/lab1.png) no-repeat;
+    background-size: contain;
     background-position: center;
     border-top-left-radius: 1vw;
     border-top-right-radius: 1vw;
