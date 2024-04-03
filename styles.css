@@ -23,7 +23,7 @@
 }
 .labImg{
     width: 100%;
-    height: 80%;  
+    height: 80%;   
 }
 .labImg:nth-child(1){
     background: url(assets/lab1.png) no-repeat;
