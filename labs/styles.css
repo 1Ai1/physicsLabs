@@ -16,3 +16,20 @@ html, body {
   background: url(../assets/ruler.jpg) no-repeat;
   background-size: contain;
 }
+
+@import url(https://fonts.bunny.net/css?family=amatic-sc:700);
+
+#box{
+  position: absolute;
+  background: #111;
+  color: #eee;
+  height: 80px;
+  width: 140px;
+  cursor: move;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Amatic SC";
+  text-shadow: 2px 2px 3px #38e;
+}

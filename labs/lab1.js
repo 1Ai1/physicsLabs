@@ -38,7 +38,19 @@ var stack = Composites.stack(
   20,
   0,
   function (x, y) {
-    return Bodies.circle(x, y, 20);
+    return Bodies.circle(x, y, 20, {
+      elem: document.querySelector("#box"),
+      render: {
+        fillStyle: "#FFD700",
+        strokeStyle: "black",
+        lineWidth: 1,
+        // sprite: {
+        //   texture: "../assets/Red-Ball-PNG-Clipart.png",
+        //   xScale: 0.06,
+        //   yScale: 0.06,
+        // },
+      },
+    });
   }
 );
 
