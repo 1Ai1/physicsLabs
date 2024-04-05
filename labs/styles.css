@@ -17,19 +17,18 @@ html, body {
   background-size: contain;
 }
 
-@import url(https://fonts.bunny.net/css?family=amatic-sc:700);
-
-#box{
-  position: absolute;
-  background: #111;
-  color: #eee;
-  height: 80px;
-  width: 140px;
-  cursor: move;
-  user-select: none;
+.taskChoose{
   display: flex;
-  align-items: center;
+  width: 30vw;
+  height: 30%;
+  text-align: center;
   justify-content: center;
-  font-family: "Amatic SC";
-  text-shadow: 2px 2px 3px #38e;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid black;
+  margin: 0 10vw;
+  color: black;
+}
+.taskChoose:hover{
+  opacity: 0.5;
 }
