@@ -31,17 +31,24 @@ Runner.run(runner, engine);
 
 // add bodies
 
-var door = Bodies.rectangle(200, 20, 400, 90, {
+// var door = Bodies.rectangle(200, 20, 400, 90, {
+//   render: {
+//     sprite: {
+//       texture: "../assets/ruler.jpg",
+//       xScale: 0.44,
+//       yScale: 0.78,
+//     },
+//   },
+// });
+var book = Bodies.rectangle(600, 200, 200, 300, {
+  // isStatic: true,
   render: {
     sprite: {
-      texture: "../assets/ruler.jpg",
-      xScale: 0.44,
-      yScale: 0.78,
+      texture: "../assets/bookFront.jpg",
+      xScale: 0.45,
+      yScale: 0.5,
     },
   },
-});
-var book = Bodies.rectangle(600, 200, 100, 300, {
-  isStatic: true,
 });
 
 Composite.add(world, [
@@ -50,15 +57,37 @@ Composite.add(world, [
   Bodies.rectangle(400, 600, 800, 50, { isStatic: true }),
   Bodies.rectangle(800, 300, 50, 600, { isStatic: true }),
   Bodies.rectangle(0, 300, 50, 600, { isStatic: true }),
-  door,
+  // door,
   book,
 ]);
 
+let bookRotate = 0;
 function change() {
   Composite.remove(engine.world, book);
-  book = Bodies.rectangle(600, 200, 50, 300, {
-    isStatic: true,
-  });
+  if (bookRotate % 2 == 0) {
+    book = Bodies.rectangle(600, 200, 40, 300, {
+      // isStatic: true,
+      render: {
+        sprite: {
+          texture: "../assets/bookSlide.jpg",
+          xScale: 1.4,
+          yScale: 0.5,
+        },
+      },
+    });
+  } else {
+    book = Bodies.rectangle(600, 200, 200, 300, {
+      // isStatic: true,
+      render: {
+        sprite: {
+          texture: "../assets/bookFront.jpg",
+          xScale: 0.45,
+          yScale: 0.5,
+        },
+      },
+    });
+  }
+  bookRotate++;
   Composite.add(world, book);
 }
 // add mouse control
