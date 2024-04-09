@@ -1,0 +1,15 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #f3e8e4;
+    display: flex;
+    justify-content: center;
+}
+.backLink{
+    position: absolute;
+    top: 5vh;
+    left: 1vw;
+}
+.content{
+    width: 80vw;
+}
