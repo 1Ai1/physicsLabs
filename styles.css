@@ -1,9 +1,16 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #f3e8e4;
+    text-align: center;
+}
 .labsBlock{
     display: flex;
     justify-content: space-around;
 }
 
 .labBlock{
+    background-color: white;
     width: 20vw;
     height: 30vh;
     border-radius: 1vw;
@@ -33,7 +40,7 @@
     border-top-right-radius: 1vw;
 }
 .labImg.img2{
-    background: url(assets/256893352_4649246145136227_8756954835593250977_n.png) no-repeat;
+    background: url(assets/lab2.png) no-repeat;
     background-size: contain;
     background-position: center;
     border-top-left-radius: 1vw;
