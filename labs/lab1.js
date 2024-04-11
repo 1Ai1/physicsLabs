@@ -43,7 +43,7 @@ Composite.add(world, [
 ]);
 
 function addBall() {
-  ball = Bodies.circle(Math.random() * 100, 300, 20);
+  ball = Bodies.circle(Math.random() * 200, 300, 20);
   Composite.add(world, ball);
 }
 

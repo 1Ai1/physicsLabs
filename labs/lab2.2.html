@@ -5,11 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="../libraries/matter.js"></script>
-    <link rel="stylesheet" href="styles.css">
+
+<style>
+    body{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fallingGraph{
+        margin-top: 10vh;
+  display: flex;
+  border-bottom: 5px solid black;
+}
+.graphHeight{
+  height: 40vh;
+  border-left: 3px solid black;
+}
+.heightPoint{
+  height: 10vh;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: end;
+}
+.fallingObject{
+  margin-top: 4vh;
+  margin-left: 5vw;
+  width: 5vh;
+  height: 5vh;
+}
+
+.tenge10{
+  background: url(../assets/10tenge.png);
+  background-size: contain;
+}
+.pingPongBall{
+    background: url(../assets/pingPongBall.png);
+    background-size: contain;
+}
+</style>
 
 </head>
 <body>
-    <div class="ruler"></div>
-    <script src="lab1.js"></script>
+    <div class="fallingGraph">
+        <div class="graphHeight">
+            <div class="heightPoint">3m</div>
+            <div class="heightPoint">2m</div>
+            <div class="heightPoint">1m</div>
+        </div>
+        <div class="fallingSpace">
+            <div class="fallingObject tenge10"></div>
+        </div>
+    </div>
+
+    <select name="objectSelection" id="selectOject" style="margin-top: 5vh;" onchange="changeObject()">
+        <option value="tenge">Тенге</option>
+        <option value="tennisBall">Шарик</option>
+    </select>
+    
+    <select name="heightSelection" id="selectHeight" style="margin: 1vh;">
+        <option value="1m">1m</option>
+        <option value="2m">2m</option>
+        <option value="3m">3m</option>
+    </select>
+    <button onclick="simulateFall()" style="margin: 1vh;">Simulate Fall</button>
+    <button onclick="reset()">Reset</button>
+    <p id="timer">Timer: 0 seconds</p>
+    <script src="lab2.2.js"></script>
 </body>
 </html>
