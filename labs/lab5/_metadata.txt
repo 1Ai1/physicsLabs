@@ -1,0 +1,20 @@
+generated-with: Easy Java/Javascript Simulations, version 6.1 BETA, build 201101. Visit http://www.um.es/fem/Ejs
+title: "Static and Kinetic Frictional Model of Mass M = 1 kg"
+logo-image: Friction/UpdatedSnapshot.png
+author: weelookang@gmail.com; Francisco Esquembre
+copyright: creative commons attribution
+author-image: 01authorlookang50x50.png;./Friction/PacoEsquembre2011.png
+source: friction.ejss
+main-script: 
+main-simulation: friction_Simulation.xhtml
+available-languages: 
+html-description: friction_Intro_1.html
+html-contents: friction_Contents.xhtml
+html-main: friction.xhtml
+page-title: Intro Page
+page-index: friction_Intro_1.html
+page-title: "Static and Kinetic Frictional Model of Mass M = 1 kg"
+page-index: friction_Simulation.xhtml
+resource: 01authorlookang50x50.png
+resource: Friction/UpdatedSnapshot.png
+resource: Friction/PacoEsquembre2011.png

@@ -46,3 +46,38 @@ body{
     border-top-left-radius: 1vw;
     border-top-right-radius: 1vw;
 }
+.labImg.img3{
+    background: url(assets/lab3.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+.labImg.img4{
+    background: url(assets/lab4.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+.labImg.img5{
+    background: url(assets/lab5.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+.labImg.img6{
+    background: url(assets/lab6.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+.labImg.img7{
+    background: url(assets/lab7.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+<ModulePrefs
+title="archimedes"
+author="mhchang; Jonathan; Loo Kang"
+description=""
+screenshot="./archimedes/Screenshot 2020-03-26 at 5.28.15 PM.png"
+thumbnail="./archimedes/Screenshot 2020-03-26 at 5.28.15 PM.png">
+<Require feature="opensocial-0.9"/>
+<Require feature="dynamic-height"/>
+</ModulePrefs>
+<Content type="html" href="archimedes_Simulation.xhtml"/>
+</Module>

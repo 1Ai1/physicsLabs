@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../libraries/matter.js"></script>
+    <style>
+      body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.crank {
+    display: flex;
+    align-items: center;
+}
+
+.left-side, .right-side {
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.rotation-shaft {
+    width: 20px;
+    height: 300px;
+    background-color: black;
+}
+
+.load {
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.load:active {
+    cursor: grabbing;
+}
+
+    </style>
+
+</head>
+<body><div class="crank">
+  <div class="left-side">
+      <div class="load" id="load1" draggable="true">
+          <p>Load 1 (m1 g)</p>
+      </div>
+  </div>
+  <div class="rotation-shaft"></div>
+  <div class="right-side">
+      <div class="load" id="load2" draggable="true">
+          <p>Load 2 (m2 g)</p>
+      </div>
+  </div>
+</div>
+    <script src="lab9.js"></script>
+</body>
+</html>

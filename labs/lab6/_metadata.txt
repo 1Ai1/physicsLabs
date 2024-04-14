@@ -1,0 +1,22 @@
+generated-with: Easy Java/Javascript Simulations, version 6.0, build 191124. Visit http://www.um.es/fem/Ejs
+title: Archimedes Weight of cube equal to Weight of solution collected
+logo-image: archimedes/Screenshot 2020-03-26 at 5.28.15 PM.png
+author: mhchang; Jonathan; Loo Kang
+copyright: 
+preferred-width: 800
+preferred-height: 600
+author-image: ;;
+source: archimedes.ejss
+main-script: 
+main-simulation: archimedes_Simulation.xhtml
+available-languages: 
+html-contents: archimedes_Contents.xhtml
+html-main: archimedes.xhtml
+page-title: Archimedes Weight of cube equal to Weight of solution collected
+page-index: archimedes_Simulation.xhtml
+resource: archimedes/ryZvTPCM-.png
+resource: archimedes/SkTbGS8G-.png
+resource: archimedes/Bysf-d0zb.png
+resource: archimedes/Screenshot 2020-03-26 at 5.28.15 PM.png
+resource: archimedes/B10JgOUM-.png
+resource: archimedes/B1BNGUDKG.png

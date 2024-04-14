@@ -62,13 +62,12 @@
         <option value="tennisBall">Шарик</option>
     </select>
     
-    <select name="heightSelection" id="selectHeight" style="margin: 1vh;">
+    <select name="heightSelection" id="selectHeight" style="margin: 1vh;" onchange="changeHeight()">
         <option value="1m">1m</option>
         <option value="2m">2m</option>
-        <option value="3m">3m</option>
+        <option value="3m" selected="selected">3m</option>
     </select>
     <button onclick="simulateFall()" style="margin: 1vh;">Simulate Fall</button>
-    <button onclick="reset()">Reset</button>
     <p id="timer">Timer: 0 seconds</p>
     <script src="lab2.2.js"></script>
 </body>

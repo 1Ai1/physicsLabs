@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+<ModulePrefs
+title="friction"
+author="weelookang@gmail.com; Francisco Esquembre"
+description="http://weelookang.blogspot.com/2014/04/ejss-static-and-kinetic-friction-on.html"
+screenshot="./Friction/UpdatedSnapshot.png"
+thumbnail="./Friction/UpdatedSnapshot.png">
+<Require feature="opensocial-0.9"/>
+<Require feature="dynamic-height"/>
+</ModulePrefs>
+<Content type="html" href="friction_Simulation.xhtml"/>
+</Module>
