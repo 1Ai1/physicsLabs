@@ -1,0 +1,41 @@
+generated-with: Easy Java/Javascript Simulations, version 6.1 BETA, build 201115. Visit http://www.um.es/fem/Ejs
+title: Projectile Motion Model with Energies Graph for Primary Science
+logo-image: projectile/Screen Shot 2017-03-23 at 4.01.30 PM.png
+author: weelookang@gmail.com
+copyright: creative common attribution
+author-image: 01authorlookang50x50.png
+source: projectileprimary.ejss
+main-script: 
+main-simulation: projectileprimary_Simulation.xhtml
+available-languages: 
+html-description: projectileprimary_Intro_1.html
+html-contents: projectileprimary_Contents.xhtml
+html-main: projectileprimary.xhtml
+page-title: About
+page-index: projectileprimary_Intro_1.html
+page-title: Projectile Motion Model with Energies Graph for Primary Science
+page-index: projectileprimary_Simulation.xhtml
+resource: projectile/Screen Shot 2017-03-23 at 4.01.30 PM.png
+resource: projectile/toy_plastic_inflatable_ball_bounce_on_floor.mp3
+resource: 01authorlookang50x50.png
+resource: freefall/240px-Soccer_ball.svg.png
+resource: projectile/Screen Shot 2017-03-16 at 5.03.04 PM.png
+resource: projectile/lookangphoto.jpg
+resource: projectile/frog_background.gif
+resource: projectile/2013-12-27_1418.png
+resource: projectile/projectile_trail_2014-05-04_2246 small.png
+resource: projectile/2014-05-05 13.32.15.jpg
+resource: projectile/frog_sit_left.gif
+resource: projectile/frog_sit_right.gif
+resource: projectile/frog_win.jpg
+resource: projectile/12-15CM-font-b-Football-b-font-Players-Reflective-font-b-Car-b-font-Decorative-Stickers.png
+resource: projectile/2015-10-07_1641frogs.png
+resource: projectile/frog_jump_left.gif
+resource: projectile/2015-10-19_1712s.png
+resource: projectile/dragonfly.gif
+resource: projectile/projectileprimarys.png
+resource: projectile/2016-03-03_1334s.png
+resource: projectile/2013-12-27_1418small.png
+resource: projectile/frog_jump_right.gif
+resource: projectile/2014-05-05 13.33.48.jpg
+resource: projectile/240px-Soccer_ball.svg.png

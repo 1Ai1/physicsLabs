@@ -81,3 +81,14 @@ body{
     border-top-left-radius: 1vw;
     border-top-right-radius: 1vw;
 }
+
+
+
+
+.labImg.img10{
+    background: url(assets/lab10.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}

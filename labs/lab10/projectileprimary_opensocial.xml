@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+<ModulePrefs
+title="projectileprimary"
+author="weelookang@gmail.com"
+description="http://weelookang.blogspot.sg/2013/12/ejss-free-fall-model.html
+
+ball taken from: http://psychology.wikia.com/wiki/File:Soccer_ball.svg
+
+http://weelookang.blogspot.sg/2014/09/ejss-projectile-customized-after.html
+
+http://weelookang.blogspot.sg/2013/12/ejss-free-fall-model.html sound effects from http://www.freesfx.co.uk/sfx/bouncing"
+screenshot="./projectile/Screen Shot 2017-03-23 at 4.01.30 PM.png"
+thumbnail="./projectile/Screen Shot 2017-03-23 at 4.01.30 PM.png">
+<Require feature="opensocial-0.9"/>
+<Require feature="dynamic-height"/>
+</ModulePrefs>
+<Content type="html" href="projectileprimary_Simulation.xhtml"/>
+</Module>
