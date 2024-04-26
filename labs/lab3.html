@@ -94,9 +94,10 @@ input:checked + .slider:before {
 }
 .scaleCenter{
     width: 1vw;
-    background-color: black;
+    background-color: gray;
 }
 .scaleDefiend, .scaleUndefined{
+  margin: 0 1vw;
     display: flex;
     width: 20vw;
     border-bottom: 2px solid black;
@@ -185,6 +186,18 @@ input:checked + .slider:before {
 .hide{
     display: none;
 }
+.scaleTop{
+  width: 100%;
+  height: 1vh;
+  background-color: gray;
+}
+.scaleBottom{
+  width: 100%;
+  height: 2vh;
+  background-color: gray;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
     </style>
 
 </head>
@@ -215,6 +228,8 @@ input:checked + .slider:before {
           </label>
         </div>
     </div>
+    <div class="scaleparts">
+      <div class="scaleTop"></div>
     <div class="scale">
         <div class="scalePart">
             <div class="scaleDefiend">
@@ -233,6 +248,8 @@ input:checked + .slider:before {
             </div>
         </div>
     </div>
+    <div class="scaleBottom"></div>
+  </div>
     <div class="unknownWeights">
         <div class="addWeight"><p style="margin-right: 1vw;">1 Дене</p> 
             <label class="switch">
