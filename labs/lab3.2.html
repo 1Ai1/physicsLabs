@@ -160,10 +160,10 @@ input:checked + .slider:before {
     font-size: 15px;
     color: white;
     background: url(../assets/beaker.png) no-repeat;
+    z-index: 1;
     background-size: contain;
 }
 .undefined2{
-    margin-top: 4vw;
     width: 6vw;
     height: 4vw;
     background: url(../assets/beakerLiquid.png) no-repeat;
@@ -173,10 +173,23 @@ input:checked + .slider:before {
     justify-content: center;
     font-size: 25px;
     color: white;
+    z-index: 1;
 
 }
 .hide{
     display: none;
+}
+.scaleTop{
+  width: 100%;
+  height: 1vh;
+  background-color: gray;
+}
+.scaleBottom{
+  width: 100%;
+  height: 2vh;
+  background-color: gray;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
     </style>
 
@@ -208,6 +221,8 @@ input:checked + .slider:before {
           </label>
         </div>
     </div>
+    <div class="scaleparts">
+      <div class="scaleTop"></div>
     <div class="scale">
         <div class="scalePart">
             <div class="scaleDefiend">
@@ -224,7 +239,8 @@ input:checked + .slider:before {
                 <div class="undefined1 hide"></div>
             </div>
         </div>
-    </div>
+    </div><div class="scaleBottom"></div>
+  </div>
     <div class="unknownWeights">
         <div class="addWeight"><p style="margin-right: 1vw;">Мензурка</p> 
             <label class="switch">
@@ -239,6 +255,6 @@ input:checked + .slider:before {
           </label>
         </div>
     </div>
-    <script src="lab3.js"></script>
+    <script src="lab3.2.js"></script>
 </body>
 </html>
